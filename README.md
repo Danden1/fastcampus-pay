@@ -1,4 +1,6 @@
+# 실습
 
+제 개인 브랜치(danden1)를 따서 현재 강의보면서 따라하고 있습니다.
 
 # FastCampus-Pay Project Overview
 ![Overall Architecture](md_resource/Overall_Architecture_Image.png)
