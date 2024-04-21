@@ -1,10 +1,9 @@
 package com.fastcampuspay.membership.application.port.in;
 
-
-import common.SelfValidating;
 import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import com.fastcampuspay.common.SelfValidating;
 
 @Data
 @Builder
