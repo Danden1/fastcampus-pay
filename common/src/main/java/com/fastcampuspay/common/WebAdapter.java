@@ -1,4 +1,4 @@
-package common;
+package com.fastcampuspay.common;
 
 
 import org.springframework.core.annotation.AliasFor;
@@ -10,9 +10,8 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Component
-public @interface UseCase{
+public @interface WebAdapter{
 
     @AliasFor(annotation = Component.class)
     String value() default "";
 }
-
