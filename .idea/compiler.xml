@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.20/18bcea7d5df4d49227b4a0743a536208ce4825bb/lombok-1.18.20.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.5.2/69da26fe0e896d89feb388c425947c34416fde2e/spring-boot-configuration-processor-2.5.2.jar" />
+        </processorPath>
+        <module name="develop.fastcampus-pay.membership-service.main" />
+        <module name="com.fastcampuspay.banking.fastcampus-pay.banking-service.main" />
+        <module name="com.fastcampuspay.common.fastcampus-pay.common.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.fastcampuspay.fastcampus-pay.membership-service.main" target="17" />
+      <module name="com.fastcampuspay.membership.fastcampus-pay.membership-service.main" target="11" />
+      <module name="fasetcampus-pay" target="17" />
+      <module name="fasetcampus-pay.main" target="11" />
+      <module name="fasetcampus-pay.test" target="17" />
+      <module name="org.fastcampuspay.common.fastcampus-pay.common.main" target="11" />
+      <module name="pay" target="17" />
+      <module name="pay.main" target="11" />
+      <module name="pay.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
