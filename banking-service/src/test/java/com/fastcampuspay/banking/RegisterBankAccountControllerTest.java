@@ -1,8 +1,6 @@
 package com.fastcampuspay.banking;
 
 import com.fastcampuspay.banking.adapter.in.web.RegisterBankAccountRequest;
-import com.fastcampuspay.membership.adapter.in.web.RegisterMembershipRequest;
-import com.fastcampuspay.membership.domain.Membership;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -37,7 +35,7 @@ public class RegisterBankAccountControllerTest {
                                 .contentType(MediaType.APPLICATION_JSON)
                                 .content(mapper.writeValueAsString(request))
                 )
-                .andExpect(MockMvcResultMatchers.status().isOk())
+                .andExpect(MockMvcResultMatchers.status().isOk());
 //                .andExpect(MockMvcResultMatchers.content().string(mapper.writeValueAsString(expect)));
     }
 }
